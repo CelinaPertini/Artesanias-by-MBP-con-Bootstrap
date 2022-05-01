@@ -33,7 +33,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav fs-4">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
@@ -56,27 +56,55 @@
     </nav>
     
     <!--CONTENIDO PRINCIPAL-->
-    <div class="wrapperProductos">
+    <div>
         <main>
-            <div class="p1">
-                <img src="assets/frascos.jpeg" alt="producto1">
+            <!-- probando con d-flex-->
+            <div class="d-flex flex-column align-items-center">
+                <img src="assets/frascos.jpeg" alt="producto1" class="w-25 h-auto">
+                <p>descripcion de imagen</p>
             </div>
-            <div class="p2">
-                <img src="assets/producto2.jpeg" alt="producto2">
+            <div class="d-flex flex-column align-items-center">
+                <img src="assets/producto2.jpeg" alt="producto2" class="w-25 h-auto">
+                <p>descripcion de imagen</p>
             </div>
-            <div class="p3">
-                <img src="assets/producto3.jpeg" alt="producto3">
+            <div class="d-flex flex-column align-items-center">
+                <img src="assets/producto3.jpeg" alt="producto3" class="w-25 h-auto">
+                <p>descripcion de imagen</p>
             </div>
-            <div class="p4">Producto 4</div>
-            <div class="p5">Producto 5</div>
-            <div class="p6">Producto 6</div>
-            <div class="p7">Producto 7</div>
-            <div class="p8">Producto 8</div>
-            <div class="p9">Producto 9</div>
-            <div class="p10">Producto 10</div>
-            <div class="p11">Producto 11</div>
-            <div class="p12">Producto 12</div>
-           
+
+            <!-- probando con row y col-->
+                <section class="container-fluid text-center bg-dark text-white">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 4</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 5</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 6</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 7</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 8</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 9</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 10</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 11</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <p>producto 12</p>
+                        </div>
+                    </div>
+                </section>
+             
         </main>
 
     <!--PIE DE PAGINA-->
