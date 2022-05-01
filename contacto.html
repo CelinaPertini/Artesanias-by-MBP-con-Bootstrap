@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+        <!--CABECERA-->
+        <header>
+            <div>
+                <img src="assets/bobinalogo.png" alt="logoMBP" class="logo">
+            </div>
+            <div>
+                <h1 class="tituloPrincipal">Artesanias by MBP</h1>
+            </div>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="quienessomos.html">Quienes Somos</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+
+
+        <!--CONTENIDO PRINCIPAL-->
+        <main>
+            <h2 class="titulos">Contacto</h2>
+            <!-- formulario -->
+            <div>
+                <form method="post" class="formulario">
+                    <fieldset>
+                        <div>
+                            <label>Nombre:</label>
+                            <input type="text" placeholder="ingrese su nombre" name="Nombre">
+                        </div>
+                        <div>
+                            <label>Apellido:</label>
+                            <input type="text" placeholder="ingrese su apellido" name="Apellido">
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            <input type="email" placeholder="ingrese su email" name="Email">
+                        </div>
+                        <br>
+                        <div>
+                            <label>Mensaje:</label>
+                        </div>
+                        <div> 
+                            <textarea name="Comentario" id="" cols="30" rows="10" placeholder="ingrese su comentario aqui"></textarea>
+                            <input type="submit" value="Enviar" class="button">
+                            <input type="reset" value="Limpiar" class="button">
+                        </div>
+                        <br>
+                        <div>
+                            <label>Quiero recibir ultimas novedades:</label>
+                            <label>Si</label>
+                            <input type="radio" name="suscripcion">
+                            <label>No</label>
+                            <input type="radio" name="suscripcion">
+                        </div>
+                        <div>
+                            <label>Acepto terminos y condiciones:</label>
+                            <input type="checkbox" name="acepta">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <h3 class="titulos">Donde Estamos</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6273914009043!2d-58.392843584592214!3d-34.58829356418957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa310edbc71%3A0x8cdbfec2903d4a74!2sPres.%20Manuel%20Quintana%2C%20C1113%20CABA!5e0!3m2!1sen!2sar!4v1649037863095!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </main>
+
+        <!--PIE DE PAGINA-->
+        <footer id="footer">
+            <section>
+                <div>
+                    <p>Derechos Reservados</p>
+                    <p>Redes Sociales</p>
+                </div>
+                <div>   
+                    <ul>
+                        <li> <img src="assets/facebook.png" alt="logoIg" height="13px" width="13px"> <a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                        <li> <img src="assets/instagram.png" alt="logoIg" height="13px" width="13px"> <a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                        <li> <img src="assets/tiktok.png" alt="logoIg" height="13px" width="13px"> <a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+                    </ul>
+                </div>
+                <div class="icono"></div>
+            </section>
+        </footer>
+    </div>
+
+    </body>
+</html>
